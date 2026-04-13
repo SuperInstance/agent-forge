@@ -1,0 +1,28 @@
+{
+  "name": "agent-forge",
+  "version": "1.0.0",
+  "description": "Universal standalone git-agent framework. Download, onboard, work. Your repo is your brain, your commits are your story.",
+  "type": "module",
+  "bin": {
+    "agent": "./src/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/cli/index.js",
+    "dev": "tsx src/cli/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "vitest": "^3.0.0"
+  }
+}
