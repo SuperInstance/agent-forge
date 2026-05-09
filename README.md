@@ -1,5 +1,15 @@
 # Agent Forge
 
+
+## Meta
+
+**Domain:** ai-agents
+**Depends on:** —
+**Depended by:** —
+**Implements:** Universal standalone git-agent framework. Download, onboard, work. Your repo is ...
+**Related:** —
+
+
 **Download, onboard, work. Your repo is your brain. Your commits are your story.**
 
 Every agent in the [SuperInstance fleet](https://github.com/SuperInstance/superinstance) is a standalone git-agent — a self-contained CLI tool that a human (or another agent) can download, onboard, and put to work. The agent's repo is not just code. It's the agent's accumulated brain. Its git history is its autobiography.
